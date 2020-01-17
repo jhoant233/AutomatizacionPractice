@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Agregar producto al carrito de compras" skipped="0" tests="1" time="18.63" timestamp="2020-01-17 10:22:10"><testcase name="Agregar producto al carrito de forma exitosa"><error message="element not interactable&#10;  (Session info: chrome=79.0.3945.117)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DESKTOP-3A1NF2K', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\jhoan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 57816a9944ce1ea53ce3950b0d18619a&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DESKTOP-3A1NF2K', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3A1NF2K', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\jhoan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57816a9944ce1ea53ce3950b0d18619a
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3A1NF2K', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown</error><system-err>element not interactable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3A1NF2K', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\jhoan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 57816a9944ce1ea53ce3950b0d18619a
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3A1NF2K', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown&#13;
+com.automationpractice.certificacion.agregarproductoalcarritodecompras.pages.PaginaInicial.clickEnElemento(PaginaInicial.java:27)&#13;
+com.automationpractice.certificacion.agregarproductoalcarritodecompras.pages.PaginaInicial.clickEnOpcionVestidos(PaginaInicial.java:23)&#13;
+com.automationpractice.certificacion.agregarproductoalcarritodecompras.stepdefinitions.ProductoEnCarritoDeComprasStepdefinitions.elSeleccionaUnProductoDeLaTienda(ProductoEnCarritoDeComprasStepdefinitions.java:32)&#13;
+✽.El selecciona un producto de la tienda(src/test/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/features/ProductoEnCarritoDeCompras.feature:8)&#13;
+</system-err></testcase></testsuite>

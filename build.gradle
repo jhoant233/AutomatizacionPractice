@@ -1,0 +1,50 @@
+buildscript{
+    repositories{
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies{
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.13")
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+/*apply plugin: 'net.serenity-bdd.aggregator'*/
+
+dependencies {
+
+    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
+    implementation 'com.google.guava:guava:27.0.1-jre'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-screenplay
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '1.9.9'
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-screenplay-webdriver
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '1.9.9'
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-core
+    compile group: 'net.serenity-bdd', name: 'serenity-core', version: '1.9.9'
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-junit
+    compile group: 'net.serenity-bdd', name: 'serenity-junit', version: '1.9.9'
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-cucumber
+    compile group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.5'
+    testCompile 'net.serenity-bdd:serenity-core:2.0.8'
+    testCompile 'net.serenity-bdd:serenity-junit:2.0.8'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+}
+/*
+gradle.startParameter.continueOnFailure = true
+test.finalizedBy(aggregate)*/
