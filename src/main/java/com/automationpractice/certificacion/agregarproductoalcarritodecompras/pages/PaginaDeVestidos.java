@@ -5,20 +5,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PaginaDeVestidos {
     private WebDriver driver;
 
-    @FindBy(how = How.XPATH, using = "//div[@class='block_content']//ul[@class='tree dynamized']//a[contains(text(),'Casual Dresses')]")
+    @FindBy(linkText = "Casual Dresses")
     WebElement vestidosCasuales;
 
-    @FindBy(how = How.XPATH, using = "//a[@class='product-name'][contains(text(),'Printed Dress')]")
+    @FindBy(xpath = "//a[@class='product-name'][contains(text(),'Printed Dress')]")
     WebElement vestidoNaranja;
 
-    @FindBy(how = How.XPATH, using = "//span[contains(text(),'Add to cart')]")
+    @FindBy(xpath = "//span[contains(text(),'Add to cart')]")
     WebElement anadirAlCarrito;
 
-    @FindBy(how = How.XPATH, using = "//span[contains(text(),'Proceed to checkout')]")
+    @FindBy(xpath = "//span[contains(text(),'Proceed to checkout')]")
     WebElement continuarConLaCompra;
 
     public PaginaDeVestidos(WebDriver driver){
@@ -27,18 +29,22 @@ public class PaginaDeVestidos {
     }
 
     public void opcionVestidosCasuales(){
+        esperarElemento(vestidosCasuales);
         clickEnElemento(vestidosCasuales);
     }
 
     public void seleccionarVestidoNaranja(){
+        esperarElemento(vestidoNaranja);
         clickEnElemento(vestidoNaranja);
     }
 
     public void agregarProductoAlCarritoDeCompras(){
+        esperarElemento(anadirAlCarrito);
         clickEnElemento(anadirAlCarrito);
     }
 
     public void confirmarCompraDelProducto(){
+        esperarElemento(continuarConLaCompra);
         clickEnElemento(continuarConLaCompra);
     }
 
@@ -46,4 +52,8 @@ public class PaginaDeVestidos {
         element.click();
     }
 
+    public void esperarElemento(WebElement element){
+        WebDriverWait wait = new WebDriverWait(driver,3);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
 }

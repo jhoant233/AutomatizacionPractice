@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12c5545a-e4e5-47ad-841b-01cf07a79ed2" name="Default Changelist" comment="" />
+    <list default="true" id="12c5545a-e4e5-47ad-841b-01cf07a79ed2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaCarritoDeCompras.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaCarritoDeCompras.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaDeVestidos.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaDeVestidos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaInicial.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaInicial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/automationpractice/certificacion/agregarproductoalcarritodecompras/stepdefinitions/ProductoEnCarritoDeComprasStepdefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/automationpractice/certificacion/agregarproductoalcarritodecompras/stepdefinitions/ProductoEnCarritoDeComprasStepdefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Agregar#20producto#20al#20carrito#20de#20compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Agregar#20producto#20al#20carrito#20de#20compras.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.automationpractice.certificacion.agregarproductoalcarritodecompras.runner.ProductoEnCarritoDeComprasRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.automationpractice.certificacion.agregarproductoalcarritodecompras.runner.ProductoEnCarritoDeComprasRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.automationpractice.certificacion.agregarproductoalcarritodecompras.runner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.automationpractice.certificacion.agregarproductoalcarritodecompras.runner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Agregar#20producto#20al#20carrito#20de#20compras.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Agregar#20producto#20al#20carrito#20de#20compras.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.automationpractice.certificacion.agregarproductoalcarritodecompras.runner.ProductoEnCarritoDeComprasRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.automationpractice.certificacion.agregarproductoalcarritodecompras.runner.ProductoEnCarritoDeComprasRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaCarritoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaCarritoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaDeVestidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaDeVestidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/pages/PaginaInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/stepdefinitions/ProductoEnCarritoDeComprasStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/certificacion/agregarproductoalcarritodecompras/stepdefinitions/ProductoEnCarritoDeComprasStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1090ce1a1fb42378d3d764989d695ecda83c526961807db788b60d9476738071.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1090ce1a1fb42378d3d764989d695ecda83c526961807db788b60d9476738071.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1090ce1a1fb42378d3d764989d695ecda83c526961807db788b60d9476738071.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1090ce1a1fb42378d3d764989d695ecda83c526961807db788b60d9476738071.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1090ce1a1fb42378d3d764989d695ecda83c526961807db788b60d9476738071.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1090ce1a1fb42378d3d764989d695ecda83c526961807db788b60d9476738071.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WWTSYVQjpXYJ2vpL47p1W4l1uW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +71,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/phpTravels-master" />
   </component>
   <component name="RunManager">
     <configuration name="ProductoEnCarritoDeComprasRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -81,21 +127,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579275765549">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1579281789614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579275765549" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579275765549">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579281789614" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579286579035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579275765549" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579275765549">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579286579035" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579286579034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579275765549" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579275765549">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579286579034" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579286579034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579275765549" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579286579034" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579286579035">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579286579035" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1579281134957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579281134957" />
   </component>
 </project>

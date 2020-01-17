@@ -10,7 +10,7 @@ public class PaginaCarritoDeCompras {
 
     private WebDriver driver;
 
-    @FindBy(how = How.XPATH, using = "//a[@class='product-name'][contains(text(),'Printed Dress')]")
+    @FindBy(linkText= "Printed Dress")
     WebElement textoDelProducto;
 
     public PaginaCarritoDeCompras(WebDriver driver){
