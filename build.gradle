@@ -23,7 +23,7 @@ repositories {
     jcenter()
 }
 
-apply plugin: 'net.serenity-bdd.aggregator'
+/*apply plugin: 'net.serenity-bdd.aggregator'*/
 
 dependencies {
 
@@ -45,6 +45,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
 }
-
+/*
 gradle.startParameter.continueOnFailure = true
-test.finalizedBy(aggregate)
+test.finalizedBy(aggregate)*/

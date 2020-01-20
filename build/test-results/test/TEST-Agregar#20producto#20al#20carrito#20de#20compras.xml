@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Agregar producto al carrito de compras" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-17T18:42:17" hostname="DESKTOP-3A1NF2K" time="23.887">
+<testsuite name="Agregar producto al carrito de compras" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-20T23:33:31" hostname="DESKTOP-3A1NF2K" time="25.185">
   <properties/>
-  <testcase name="Agregar producto al carrito de forma exitosa" classname="Agregar producto al carrito de compras" time="23.887"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 1669
+  <testcase name="Agregar producto al carrito de forma exitosa" classname="Agregar producto al carrito de compras" time="25.185"/>
+  <system-out><![CDATA[Printed Dress
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9197
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579286543.563][WARNING]: Timed out connecting to Chrome, retrying...
-ene 17, 2020 1:42:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1579563217.186][WARNING]: Timed out connecting to Chrome, retrying...
+ene 20, 2020 6:33:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

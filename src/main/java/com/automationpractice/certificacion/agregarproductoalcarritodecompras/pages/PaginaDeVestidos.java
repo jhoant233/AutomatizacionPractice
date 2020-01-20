@@ -3,7 +3,6 @@ package com.automationpractice.certificacion.agregarproductoalcarritodecompras.p
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -28,22 +27,17 @@ public class PaginaDeVestidos {
         PageFactory.initElements(driver, this);
     }
 
-    public void opcionVestidosCasuales(){
-        esperarElemento(vestidosCasuales);
-        clickEnElemento(vestidosCasuales);
-    }
-
-    public void seleccionarVestidoNaranja(){
+    public void clickVestidoNaranja(){
         esperarElemento(vestidoNaranja);
         clickEnElemento(vestidoNaranja);
     }
 
-    public void agregarProductoAlCarritoDeCompras(){
+    public void clickAgregarProducto(){
         esperarElemento(anadirAlCarrito);
         clickEnElemento(anadirAlCarrito);
     }
 
-    public void confirmarCompraDelProducto(){
+    public void clickConfirmarCompra(){
         esperarElemento(continuarConLaCompra);
         clickEnElemento(continuarConLaCompra);
     }

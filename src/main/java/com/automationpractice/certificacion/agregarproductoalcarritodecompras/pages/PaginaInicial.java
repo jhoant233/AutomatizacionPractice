@@ -12,9 +12,11 @@ public class PaginaInicial {
 
     private WebDriver driver;
 
-    @FindBy(linkText = "DRESSES")
-    WebElement opcionDeVestidos;
+    @FindBy(xpath = "//input[@id='search_query_top']")
+    WebElement campoBuscar;
 
+    @FindBy(xpath = "//button[@name='submit_search']")
+    WebElement botonBuscar;
 
     //constructor
     public PaginaInicial(WebDriver driver){
@@ -22,9 +24,13 @@ public class PaginaInicial {
         PageFactory.initElements(driver, this);
     }
 
-    public void clickEnOpcionVestidos(){
-        esperarElemento(opcionDeVestidos);
-        clickEnElemento(opcionDeVestidos);
+    public void enviarProducto(String opcionVestidos){
+        enviarTexto(campoBuscar, opcionVestidos);
+    }
+
+    public void clickBotonBuscar(){
+        esperarElemento(botonBuscar);
+        clickEnElemento(botonBuscar);
     }
 
     public void clickEnElemento(WebElement element){
@@ -32,8 +38,12 @@ public class PaginaInicial {
     }
 
     public void esperarElemento(WebElement element){
-        WebDriverWait wait = new WebDriverWait(driver,10);
+        WebDriverWait wait = new WebDriverWait(driver,5);
         wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    public void enviarTexto(WebElement element,String text){
+        element.sendKeys(text);
     }
 
 }
